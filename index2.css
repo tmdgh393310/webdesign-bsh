@@ -1,0 +1,344 @@
+
+ .box{
+    position: absolute;
+    display: flex;
+    top:0px;     
+    left: 0px;
+    width: 100%;
+    height: 500%;
+    margin: 0%;
+    background-color: rgb(26, 26, 26);
+    
+}
+
+.box1{
+    position: absolute;
+    top:0%;
+    left:17%;
+    width: 23vw;
+    height: 100%;
+    background-color: rgb(87, 87, 87);
+
+}
+.box2{
+    position:absolute;
+    top: 16%;
+    left:11%;
+    width:350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-style: double;
+    border-color: rgb(158, 158, 158);
+    border-radius: 25%;
+    border-width: 0.7vw;
+}
+
+.box2 > img{
+    position:relative;
+    top: 0%;
+    left:0%;
+    width:350px;
+    height: 350px;
+    border-radius: 20%;
+}
+
+.box3{
+    position: absolute;
+    top:0%;
+    left:33%;
+    width: 6vw;
+    height: 100%;
+    background-color: rgb(65, 65, 65);
+}
+
+.box4{
+    position: absolute;
+    top:20%;
+    left: 0%;
+    width: 100%;
+    height: 7vw;
+    background-color: rgb(90, 90, 90);
+}
+
+.box5{
+    position: absolute;
+    top:100%;
+    left: 0%;
+    width: 100%;
+    height: 35vw;
+    background-color: rgb(196, 196, 196);
+}
+.box5 > div{
+    position: absolute;
+    top:20%;
+    left:47%;
+
+}
+.box5 > p{
+    position: absolute;
+    left:42%;
+    font-size: 60px;
+    top:-10%;
+    z-index: 2;
+}
+
+.box6{
+    position: absolute;
+    top:100%;
+    left: 17%;
+    width: 23vw;
+    height: 35vw;
+    background-color: rgb(65, 65, 65);
+    text-align: right;
+    font-size: 25px;
+}
+.box6 > p {
+    position: absolute;
+    left: 48%;
+    top: 22.5%;
+    color: rgb(90, 90, 90);
+}
+
+.box7{
+    position: absolute;
+    top:225%;
+    left:0%;
+    width: 100%;
+    height: 7vw;
+    background-color: rgb(160, 160, 160);
+}
+
+.box8{
+    position: absolute;
+    top:70%;
+    left:90%;
+    width: 4%;
+    height: 40%;
+    background-color: rgb(46, 46, 46);
+}
+
+.box9{
+    position: absolute;
+    top: 0%;
+    left:38%;
+    font-size: 100px;
+    color: white;
+}
+
+.box9 > div{
+    font-size: 50px;
+    color: rgb(231, 231, 231);
+}
+
+.box10{
+    position: absolute;
+    left: 42%;
+    top:117%;
+    background-color:rgb(168, 168, 168);
+    z-index: 1;
+}
+
+.box10 > p{
+    position: absolute;
+    top:22.5%;
+    font-size: 25px;
+    width: 25vw;
+}
+
+.box10 > div{
+    color: rgb(92, 92, 92);
+}
+
+.box11{
+    position: absolute;
+    left: 0%;
+    top:175%;
+    width: 100%;
+    height: 55vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.box11 > p{
+    position: absolute;
+    left:50%;
+    top:2%;
+    font-size: 60px;
+    transform: translatex(-50%);
+    color: white;
+}
+
+.box12{
+    position: relative;
+    left:23%;
+    top:97.5vw;
+    transform:translateX(-50%);
+    height: 20vw;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    margin: 20px;
+    border-radius: 25%;
+    border-style: double;
+    border-color: black;
+    border-width: 1vw;
+
+}
+
+.box13{
+    position: absolute;
+    left:19%;
+    top:120vw;
+    transform: translateX(-25%);
+    height: 5vw;
+    font-size: 25px;
+}
+
+.box13 > p{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+.box14{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:120vw;
+    height: 5vw;
+    font-size: 25px;
+}
+
+.box14 > p{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+
+.box15{
+    position: absolute;
+    left:80%;
+    top:120vw;
+    transform: translateX(-75%);
+    height: 5vw;
+    font-size: 25px;
+}
+
+.box15 > p{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+
+.box12 > img{
+    position: relative;
+    left:0%;
+    top:0%;
+    display: inline-flex;
+    border-radius: 25%;
+    margin: 10%;
+    display: block;
+}
+
+.box16{
+    position: absolute;
+    display: flex;
+    top:140VW;     
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.box17{
+    position: relative;
+    left:50%;
+    top:120vw;
+    transform:translateX(-110%);
+    height: 20vw;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    margin: 20px;
+    border-radius: 25%;
+    border-style: double;
+    border-color: black;
+    border-width: 1vw;
+}
+
+.box17 > img{
+    position: relative;
+    left:0%;
+    top:0%;
+    display: inline-flex;
+    border-radius: 25%;
+    margin: 10%;
+    display: block;
+}
+
+.box18{
+    position: absolute;
+    left:50%;
+    top:170vw;
+    transform: translateX(-50%);
+    height: 5vw;
+    font-size: 25px;
+}
+
+.box18 > p{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+
+.box19{
+    position: absolute;
+    top:30%;
+    left:0%;
+    width: 100%;
+    height: 7vw;
+    background-color: rgb(160, 160, 160);
+}
+
+.box20{
+    position: absolute;
+    top:190VW;     
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.box21{
+    position: relative;
+    left:9.5%;
+    top:170vw;
+    transform:translateX(-100%);
+    height: 20vw;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    margin: 20px;
+    border-radius: 25%;
+    border-style: double;
+    border-color: black;
+    border-width: 1vw;
+}
+
+.box21 > img {
+    position: relative;
+    left:0%;
+    top:0%;
+    display: inline-flex;
+    border-radius: 25%;
+    margin: 10%;
+    display: block;
+}
+
+.box22{
+    position: absolute;
+    left:50%;
+    top:220vw;
+    transform: translateX(-50%);
+    height: 5vw;
+    font-size: 25px;
+}
+
+.box22 > p{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
